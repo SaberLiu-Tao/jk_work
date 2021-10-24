@@ -10,6 +10,8 @@ public class StuAop {
     //后置通知
     public void after(){
         System.out.println("finish... ");
+        System.out.println("finish... ");
+
     }
 
     //环绕通知
