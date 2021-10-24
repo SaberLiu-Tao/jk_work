@@ -16,6 +16,10 @@
         <property name="user" ref="user1" />
     </bean>
 
+    <bean id="student2" class="lt.Student">
+        <property name="user" ref="user1" />
+    </bean>
+
 
     <bean id="stuAop" class="lt.aop.StuAop"></bean>
 
